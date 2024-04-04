@@ -25,5 +25,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build and push
         run: |
-          docker build -t gagandeepthinknyx/intelus:latest .
-          docker push gagandeepthinknyx/intelus:latest
+          docker build -t malie480/intelus:latest .
+          docker push malie480/intelus:latest
